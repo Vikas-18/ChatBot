@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <AboutCard
-        images={"./images/vikas.jpeg"}
+        images={"./images/vikas.jpg"}
         name={memberData["vikas"].name}
         content={memberData["vikas"].works}
       />
