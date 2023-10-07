@@ -10,11 +10,13 @@ function NavBarGit() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <img
-            className="chatbot"
-            src="./images/chatbot.png"
-            alt="chatbot icon"
-          />
+          <NavLink to="/" className="nav-logo">
+            <img
+              className="chatbot"
+              src="./images/chatbot.png"
+              alt="chatbot icon"
+            />
+          </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
