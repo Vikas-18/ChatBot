@@ -108,16 +108,20 @@
     display: table;
   }
 
-  .nav-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: #ffdd40;
-  }
+    /* Add this to your CSS file */
+    @font-face {
+      font-family: 'FontAwesome';
+      src: url('path/to/font-awesome/fontawesome-webfont.woff2') format('woff2'),
+        url('path/to/font-awesome/fontawesome-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+  
+    .nav-icon {
+      display: none;
+    }
+  
+    /* Rest of your CSS styles */
 }
 
 .chatbot {
