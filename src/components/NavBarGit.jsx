@@ -75,17 +75,6 @@ function NavBarGit() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/status"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Status
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
                 to="/admin"
                 activeClassName="active"
                 className="nav-links"
