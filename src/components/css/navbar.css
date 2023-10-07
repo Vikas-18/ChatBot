@@ -43,6 +43,7 @@
   height: 100%;
   border-bottom: 3px solid transparent;
 }
+
 .fa-code {
   margin-left: 1rem;
 }
@@ -95,10 +96,12 @@
     transition: all 0.5s ease;
     z-index: 1;
   }
+
   .nav-item .active {
     color: #ffdd40;
     border: none;
   }
+
   .nav-links {
     padding: 1.5rem;
     width: 100%;
