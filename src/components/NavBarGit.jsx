@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./css/navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function NavBarGit() {
   const [click, setClick] = useState(false);
@@ -80,7 +82,7 @@ function NavBarGit() {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+            <FontAwesomeIcon icon={faBars} size="xl" />
           </div>
         </div>
       </nav>
