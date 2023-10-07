@@ -35,13 +35,11 @@ const Complain = () => {
     axios
       .post("https://hostelchatbotnitrr.onrender.com/complain", complainData)
       .then((response) => {
+        console.log(response.data);
         // Handle the response as needed
         if (response.data.success) {
           // Complain registration successful
           toast.success("Complain Registered Successfully");
-          setTimeout(() => {
-            navigate("/");
-          }, 4000);
         } else {
           toast.error("Error Occurred, Please Try Again Later.");
         }
