@@ -27,7 +27,6 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  flex-grow: 1;
 
   display: flex;
   align-items: center;
@@ -56,9 +55,7 @@
   border-bottom: 3px solid transparent;
 }
 
-/* .fa-code {
-  margin-left: 1rem;
-} */
+
 
 .nav-item {
   line-height: 40px;
